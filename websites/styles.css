@@ -1,0 +1,86 @@
+/*nav bar pain*/
+
+nav ul {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {float:left;width:200px;text-align:center;height:100px}
+nav ul li div{height:100px;
+  text-align:center}
+
+nav ul li a {display:block;padding:8px;
+  background-color:red;
+  color:black;
+  height:20px
+  }
+nav ul li a:hover {background-color:darkBlue;color:White}
+
+nav a img {height:20px;
+  width:190px;}
+
+.dropDown {background-color:green;
+  width:150px;
+  margin-left:17px;
+  float:left;}
+
+#historyDiv {outline-style:solid;
+}
+
+/*quiz ui*/
+  body {background-color:#00ffff;
+    }
+
+  h1, form, p, .progressBar {margin-left:100px;
+    margin-right:100px}
+
+  .homeButton {float:right;
+    margin-right:100px;}
+    
+  .quizDiv {width:850px;
+    height:700px;
+    background-color:#fff88f;
+    margin:auto;
+    margin-top:50px;
+    border-radius:10px;
+    font-family: 'Montserrat', sans-serif; 
+    }
+
+  h1 {text-align:left;
+    padding-top:75px;
+  }
+
+  .changeQuestion {width:100px;margin-left:205px;
+  display:inline;
+  float:left;
+  border-style:solid}
+
+
+  .goBack {width:70px;
+    height:50px;
+    float:left;
+    margin-left:100px}
+    
+  .goForward {width:70px;
+    height:50px;
+    margin-left:205px;}
+
+  .answer {width:650px;
+    height:200px}
+
+  .questionNumber {float:left;
+    font-size:12px;}
+
+  .correctAnswers {float:right;
+    font-size:12px;}
+
+  .question {padding:50px;
+    float:center;
+    display:block;
+    text-align:center}
+
+  .progressBar {background-color:green;
+    height:10px;
+    width:10px;
+    border-radius:5px;}

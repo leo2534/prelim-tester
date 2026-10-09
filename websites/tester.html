@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>quotes tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <script type="module">
+        async function loadData() {
+          try {
+            const response = await fetch('./quotes.json');
+            const data = await response.json();
+            return data;
+          } catch (err) {
+            console.error('Error loading JSON:', err);
+          }
+        }
+        function getTopic() {       
+          const params = new URLSearchParams(window.location.search);
+          const topic = params.get("topic");
+          console.log("topic:");
+          console.log(topic); // "algebra"
+          return topic;
+        }
+        const topic = getTopic();
+
+        const obj = await loadData();
+        const JSONdata = obj[topic];
+        var numberCorrect = 0;
+        console.log(JSONdata)
+        const numQuestions = JSONdata.length;
+        var index = 0;
+        var userAnswer = "";
+        const questionBox = document.getElementsByClassName("question")[0];
+        const answerBox = document.getElementsByClassName("answer")[0];
+        const questionNumberBox = document.getElementsByClassName("questionNumber")[0];
+        questionBox.textContent = JSONdata[0].question;
+        questionNumberBox.textContent = "Question number 1/" + numQuestions;
+        document.getElementsByClassName("correctAnswers")[0].textContent = numberCorrect + "/" + numQuestions; 
+        document.getElementsByClassName("title")[0].textContent = topic
+
+        function answerCorrect(){
+        //returns true if there more tan 90% of the answer is correct
+          var answer= JSONdata[index].answer
+          var wrongChars = Math.abs(userAnswer.length-answer.length);
+          for(var i;i<Math.min(userAnswer.length, answer.length);i++){
+            if(userAnswer[index] == answer[index]){
+              wrongChars++;
+            }
+          }
+          if(wrongChars<=0.1*answer.length){
+            return true;
+          }
+          else{
+            return false;
+          }
+        }
+      
+        //give time for other things to happen before alert pops up  
+        function scheduleAlert(message){
+         setTimeout(() => { alert(message); }, 15); 
+        }
+        function displayQuestion(questionIndex){
+          //change question number
+          questionNumberBox.textContent = "Question number " + (questionIndex+1) +"/" + numQuestions;
+          //change question
+          questionBox.textContent = JSONdata[questionIndex].question;
+          //update progress bar
+          document.getElementsByClassName("progressBar")[0].style.width = Math.max((650 * (index) / numQuestions),10)+"px"
+
+          //clear previous answer
+          answerBox.value = "";
+        }
+        
+
+        function updateQuestion(){
+          //get the answer from the <form>
+          userAnswer = answerBox.value;           
+
+          //check if the answer is correct
+          if(answerCorrect()==true){
+            //correct answer procedure
+            numberCorrect++;
+            document.getElementsByClassName("correctAnswers")[0].textContent = numberCorrect + "/" + numQuestions;
+            document.body.style.background = "#77DD77";
+            //give time for the background to change color;
+            setTimeout(() => { alert("correct");
+            document.body.style.background = "#00ffff";}, 15); 
+          }
+          else{
+            //incorrect answer procedure
+            document.body.style.background = "#ff746c";
+            //give time for the background to change color
+            setTimeout(() => {alert("incorrect\n" + JSONdata[index].answer);
+              document.body.style.background = "#00ffff";},15);     
+            }
+          
+	  //give time for the last set time to clear before changing any text
+          setTimeout(() => { 
+          //check the quiz hasnt finished
+          if(index+2>numQuestions){
+            //end of quiz procedure
+            scheduleAlert("you have finished the quiz\nyou got " + numberCorrect + "/" + numQuestions + "\npress ok to restart quiz");
+            //bit of a hack
+            document.getElementsByClassName("changeQuestion")[0].value = "1";
+            changeIndex();
+            numberCorrect = 0;
+            document.getElementsByClassName("correctAnswers")[0].textContent = numberCorrect + "/" + numQuestions; 
+
+            return false;
+          }
+
+          
+          //move onto next question
+          index++;
+
+          //change question
+          displayQuestion(index);},30);
+
+          //boiler plate so the php file isnt called
+          return false;
+        }
+
+        function goBack(){
+            document.getElementsByClassName("changeQuestion")[0].value = Math.max(index,1);
+            changeIndex();
+            return false;
+        }
+
+        function goForward(){
+          document.getElementsByClassName("changeQuestion")[0].value=Math.min(index+2,numQuestions);
+          changeIndex();
+        }
+
+        function changeIndex(){
+            //get the new index from the form
+            var newIndex = document.getElementsByClassName("changeQuestion")[0];
+            if(newIndex.value>=1 && newIndex.value<=numQuestions){
+             //set index accounting for humans indexing lists at 1
+              index = newIndex.value -1;
+
+              //display next question
+              displayQuestion(index);
+
+              //reset the text box
+              newIndex.value = "";
+            }
+
+            //boilerplate
+            return false;
+        }
+
+        //expose the functions
+        window.updateQuestion = updateQuestion;
+        window.changeIndex = changeIndex;
+        window.goBack = goBack
+        window.goForward = goForward
+        
+    </script>
+    
+    <div class="quizDiv">
+      <h1 class="title">Great Gatsby Quotes</h1>
+      <a class="homeButton" href="home.html">Home</a>
+      <br>
+      <div class="progressBar"></div>
+      <p class="questionNumber">fgds</p>
+      <p class="correctAnswers">0}/1234</p>
+      <p class="question">afndja</p>
+      
+     
+      <p class="instructions">Enter answer here:</p>
+      <form action="process_form.php" onsubmit="return updateQuestion();">
+          <input type="text" class="answer">
+      </form>
+
+      <div class="questionChanges">
+      <button class="goBack" onclick="goBack()">Go Back</button>
+      <form action = "process_form.php" onsubmit="return changeIndex();">
+          <input class="changeQuestion" type="text" placeholder="change question" class="newIndex">
+          </form>
+          
+          <button class="goForward" onclick="goForward()">Go Forward</button>
+        </div>
+
+
+
+</body>
+</html>

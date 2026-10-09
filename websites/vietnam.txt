@@ -1,0 +1,20 @@
+context 1¬1954 geneva 4 countries
+context 2¬3000 advisors under JFK
+american military difficulties k1¬300 killed at my lai
+american military difficulties k2¬3  million tonnes of bombs
+american military difficulties A¬didn't udermine ho chi mihns popularity or bring to negotiations
+american military diffuculties k3¬GI 8-9 weeks training
+american military diffuculties A+¬limited training but better than NVA no training
+american military diffuculties E¬100 million pounds of deoliant, use of defoliants and napalm and poor behaviour led to loss of hearts and minds
+changing public opinion k1¬kent state national guard
+changing public opinion k2¬life magazine 242 in a week
+changing public opinion A¬humanising the death count turned people against the war, led to reduced involvement
+changing public opinion k3¬burning draft letters
+changing public opinion A+¬500,000 GI's should win whatever public thinks
+changing public opinion E+¬sokme soldiers still supported the war but those who didnt had poor morale
+international isolation k1¬supplimented by australia, new zealnd, south korea
+international isolation k2¬no nato allies despite jungle experience
+international isolation A¬experience from fighting in jungle could have helped us troops win
+international isolation k3¬only recieved seato allies
+international isolation A+¬still largest military in the world should defeat NVA
+international isolation E¬soldiers had experience from korea, but had heroin and drug addictions

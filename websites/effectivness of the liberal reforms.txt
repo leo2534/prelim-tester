@@ -1,0 +1,20 @@
+context 1¬during boar war 1/3 didnt pass medical
+context 2¬glasgow loch katrine
+elderly k1¬old age pension act non contributory
+elderly k2¬old age pension allowed 1 to 5 shillings a week
+elderly A¬helped people have enough money for food and water
+elderly k3¬rowntree said poverty line was 7 shillings a week
+elderly A+¬not enough for poverty line
+elderly E¬over 1 million applied for pensions, but requirements to recieve money were strict
+young k1¬illegal for children to beg
+young k2¬probation officer appointed for young offenders aftercare
+young A¬help after leaving prison
+young k3¬school meals act gave one hot meal per nnedy child
+young A+¬initially voluntary, not allways implemented by local authority
+young E¬medical inspections showed that going untreated as couldn't afford, didnt nessesarilly provide treatment
+employed k1¬13 million health insurance 1914
+employed k2¬male workers 10 shillings up to 26 weeks
+employed A¬above poverty line
+employed k3¬only elidgable for 5 shillings 27 weeks to 70 years
+employed A+¬not enough for chronic illness
+employed E¬got doctors and medicine for free, but cost 4 pence per week, too much for many

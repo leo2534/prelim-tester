@@ -1,0 +1,20 @@
+context 1¬most women seen as second class citizens
+context 2¬great reform act standariised voters as male persons
+suffragettes k1¬escaped from prison under cat and mouse act
+suffragettes k2¬government force feeding painful
+suffragettes A¬appeared as bullies, contradicted women as gentle
+suffragettes k3¬burned down ayr race course
+suffragettes A+¬couldnt reward terrorists
+suffragettes E¬emily davidson showed commited
+influence of other contries k1¬international womens suffrage founded 1902 in 11 countries
+influence of other countries k2¬britain not first to enfranchise - new zealand
+influence of other countries A¬mother of democracy - ex colonies more democratic
+influence of other countries k3¬denmark, russia and poland enfranchised
+influence of other countreis A+¬britain didn't go through a revolution
+influence of other countries E+¬britain doesnt follow smaller less influential countries, put pressure on government with violence
+war work k1¬worked in civil service
+war work k2¬worked in traditionally mens roles
+war work A¬acted as full citizens
+war work k3¬worked in munitions factories
+war work A+¬rewarded upper class only
+war work E+¬removed pressure to act, showed suffragettes could do good things

@@ -1,0 +1,20 @@
+context 1¬1800 only 4% could vote
+context 2¬undergone industrial revolution drastically changed social and economic structure, landowners no longer sole wealth creators, created pressure for electoral change
+knowledge 1¬moved from countryside into towns and cities, chagned size of constituencies, 1911, 3/4 population lived in urban areas
+knowledge 2¬newpapers by train, news travel faster and more affordable, newspapers were launched aimed at the working classes, daily main and daily express
+A¬government became more accountable, people knew what they were doing
+knowledge 3¬high rents forced people into slum housing, sharing outside tap and toilets
+A+¬most working class just trying to survive, no time energy or money left for political campaigns, unable to put pressure on government
+E+¬working class showed political engaged, cotton mill workers refused to work with enslaved picked cotton despite unemployment, self sacrifice over US civil war
+knowledge 1¬suffragettes escaped prison under cat and mouse act, made the government look incompetent
+knowledge 2¬national reform union orgnised demonstration in Glasgow 1884 invovled 64,000 in procession, another 200,000 gathered at glasgow green
+A¬demonstations showed the public and government that working classes wanted the vote
+knowledge 3¬Suffragists gathered petitions, organised demonstrations and marches, also started a newpapers and allied with labour
+A+¬peaceful campaigns were too dull and uninspiring, didn't pressure government
+E+¬violence pressured government to act. Small fringe suffragettes passed off as terrorists, government couldn't ignore possibility of popular revolution, pressured government to appease working classes
+knowledge 1¬DORA canged role of government with unprecedented control over people's lives and censorship
+knowledge 2¬coaltition government formed to fight war from 1916, David Lloyd George declared 1918 need for Britain to be 'land fit for heros' had to include democratic change
+A¬gave the government a chance for fresh start, in peaceful world, democracy and equality at forefront of politics
+knowledge 3¬millions of men and women kept home front going, maintaining vital services. Women risked lives making munitions for war, canary girls TNT poisoning
+A+¬difficult and dangerous jobs were young unmarried working class
+E+¬government needed constant pressure to enact change, jobs filled by women temporary, pressure ended with the jobs and war, no long term social or economic change, general populous still better education signed petitions, learned excluded from vote, persisted through was

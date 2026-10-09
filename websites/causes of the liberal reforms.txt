@@ -1,0 +1,20 @@
+context 1¬laissez fiare, let it be
+context 2¬30% in poverty, 3% in poorhouse
+booth and rowntree reports k1¬30% of london in poverty, 28% of york
+booth and rowntree reports k2¬established poverty line
+booth and rowntree reports A¬revealed the extent and need for state aid
+booth and rowntree reports k3¬primary and secondary poverty
+booth and rowntree reports A+¬still aknowledged undeserving, can't reward undeserving
+booth and rowntree reports E¬poverty not from poor actions, current system not adaquete
+municipal socialism k1¬birmingham built museums
+municipal socialism k2¬cleared slums, bought water and gas
+municipal socialism A¬gave blueprint for national government
+municipal socialism k3¬glasgow loch katrine
+municipal socialism A+¬local solutions not work everywhere
+municipal socialism E+¬municipal socialism scope is municipal doesn't involve national government, booth and rowntree show need state aid
+national security k1¬the boar war showed the horrific state of health of the public
+national security k2¬overtaken by exports germany and steel usa, bismark introduced reforms for workers and children
+national security A¬replicate german reforms to catch up
+national security k3¬1/3 of volunteers rejected due to medical, malnurishment and living conditions
+national security A+¬can draw on empire for soldiers
+national security E+¬uk economy still growing, just slower than germanys, pressure from voters after reading reports pressured to enact changes

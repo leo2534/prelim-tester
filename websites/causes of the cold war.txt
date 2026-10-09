@@ -1,0 +1,20 @@
+context 1¬peace, land, bread
+context 2¬5 year plans, agriculture to industrial
+arms race k1¬1/3 million died in hiroshima and nagasaki
+arms race k2¬truman didn't tell stalin about the manhattan projects
+arms race A¬stalin thought the secrecy was for the bomb to be used against him
+arms race k3¬USSR lost 27 million in WW2, USA fought in island hopping
+arms race A+¬couldn't start another fight
+arms race E¬self fueling tensions
+disagreement over germany k1¬development, marshall plan
+disagreement over germany k2¬reparations
+disagreement over germany A¬incompatible, strong vs weak
+disagreement over germany k3¬january 1947, bizonia, soon france too
+disagreement over germany A+¬trizonia not influencing stalins sphere of influence
+disagreement over germany E+¬berlin blockade fail, pressure to use nukes to prove it was worth it
+korean war k1¬communists beat un nationalists in china
+korean war k2¬UN in north korea, china felt threatened so invaded
+korean war A¬emergence of china made capitalism worried about spread
+korean war k3¬stalemate near where started
+korean war A+¬both claim victory
+korean war E+¬korean war not start of cold war, cold war started when the US built bomb

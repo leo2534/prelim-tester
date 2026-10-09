@@ -1,0 +1,11 @@
+context 1¬great depression led deprivation, poverty, unemployment for many, unemployment more than doubled 1929 - 1932
+context 2¬Beveridge identified 'five giants' in report into British social insecurity, want, disease, idleness, ignorance, squalor
+want k1¬1946 national insurance act made workers, employment and government pay into schemes each week
+want k2¬national assistance act creates safety net for those not fully covered by national insurance scheme such as disables, sick elderly and extreme poverty
+want A¬prevented those most in need from falling into poverty
+want k3¬local authorities were made to provide regulated home and services for the elderly and the disabled so that they couldn't slip into serious poverty
+want A+¬support remained means tested, hugely unpopular as involved government inspectors analysing all elements in an individuals finances, seen as invasive and humiliating
+want E+¬pensions were well funded, contributions set at %5 of average earnings, meant pensions were well funded enough for pensioners to survive on, people had to pay for future pension, still to high for very poor, could not afford it
+idleness k1¬one aim of coalition government was to ensure a 'high and stable level of employment after the war'
+idleness k2¬beveridge had claimed that unemployment could not be reduced to below 3%, 1914 unemployment at 2.5%
+idleness a+¬

@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <title>prelim revision tester</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+  </head>
+  <body> 
+    <img src="images/prelim revision.png" width="100%" height="200px">
+    <script>
+      function showDropDown(subject){
+        element = document.getElementById(subject);
+        console.log(element)
+        element.style.display = "inline";
+      }
+      function hideDropDowns(){
+        elements = document.getElementsByClassName("dropDownDiv");
+        for(i=0;i<elements.length;i++){
+          elements[i].style.display = "none";
+        }
+      }
+
+    </script>
+
+
+    <nav>
+      <ul>
+        <li>
+          <div onmouseleave="hideDropDowns()">
+            <a onclick="showDropDown('english')"><img src="images/english.png" height="100px" width="200px"></a>
+              <div id="english" class="dropDownDiv">
+                    <a class="dropDown" href="tester.html?topic=Great Gatsby">Great Gatsby</a>
+                    <a class="dropDown" href="tester.html?topic=Set Text">SST</a>
+                    <a class ="dropDown" href="tester.html?topic=Set Text No Analysis"> Set Test No Analysis</a>
+                    <a class="dropDown" href="tester.html?topic=Macbeth">Macbeth</a>
+              </div>
+            </div>
+        </li>
+        <li>
+          <div onmouseleave="hideDropDowns()">
+            <a onclick="showDropDown('history')"><img src="images/history.png"></a>
+            <div id="history" class="dropDownDiv">
+              <a class="dropDown" href="tester.html?topic=historyAssignment">Assignment</a>
+              <a class="dropDown" href="tester.html?topic=MandE1pullEmigration">M&E1 pull factors emigration</a>
+              <a class="dropDown" href="tester.html?topic=MandE1pushEmigration">M&E1 push factors emigration</a>
+              <a class="dropDown" href="tester.html?topic=MandE1pullMigration">M&E1 pull factors migration</a>
+              <a class="dropDown" href="tester.html?topic=MandE1pushMigration">M&E1 push factors migration</a>
+              <a class="dropDown" href="tester.html?topic=MandE2irish">M&E2 irish immigrants</a>
+              <a class="dropDown" href="tester.html?topic=MandE2jewish">M&E2 jewish immigrants</a>
+              <a class="dropDown" href="tester.html?topic=MandE2italian">M&E2 italian immigrants</a>
+              <a class="dropDown" href="tester.html?topic=MandE2lithuanian">M&E2 lithuanian immigrants</a>
+              <a class="dropDown" href="tester.html?topic=MandE3canada">M&E3 canada</a>
+              <a class="dropDown" href="tester.html?topic=MandE3india">M&E3 india</a>
+              <a class="dropDown" href="tester.html?topic=MandE3australia">M&E3 australia</a>
+              <a class="dropDown" href="tester.html?topic=MandE3newZealand">M&E3 new zealand</a>
+              <a class="dropDown" href="tester.html?topic=MandE4economy">M&E4 Economy</a>
+              <a class="dropDown" href="tester.html?topic=MandE4culture">M&E4 Culture</a>
+              <a class="dropDown" href="tester.html?topic=MandE4society">M&E4 Society</a>
+              <a class="dropDown" href="tester.html?topic=MandE4empire">M%E4 Empire</a>
+              <a class="dropDown" href="tester.html?topic=votes for women">votes for women</a>
+              <a class="dropDown" href="tester.html?topic=reasons britain become more democratic">reasons britain became more democratic</a>
+              <a class="dropDown" href="tester.html?topic=causes of the liberal reforms">Causes of the liberal reforms</a>
+              <a class="dropDown" href="tester.html?topic=effectivness of the liberal reforms">effectivness of the liberal reforms</a>
+              <a class="dropDown" href="tester.html?topic=vietnam">vietnam war</a>
+              <a class="dropDown" href="tester.html?topic=cuban missile crisis">cuban missile crisis</a>
+              <a class="dropDown" href="tester.html?topic=causes of the cold war">causes of the cold war</a>
+            </div>
+          </div>
+
+        </li>
+        <li>
+          <div onmouseleave="hideDropDowns()">
+            <a onclick="showDropDown('physics')"><img src="images/physics.png"></a>
+            <div id="physics" class="dropDownDiv">
+              <a class="dropDown" href="tester.html?topic=motion">motion</a>
+              <a class="dropDown" href="tester.html?topic=forces">forces</a>
+              <a class="dropDown" href="tester.html?collisions">collisions</a>
+              <a class="dropDown" href="tester.html?topic=gravity">gravity</a>
+              <a class="dropDown" href="tester.html?topic=expanding universe">expanding universe</a>
+              <a class="dropDown" href="tester.html?topic=refraction">refraction</a>
+              <a class="dropDown" href="tester.html?topic=standard model">standard model</a>
+              <a class="dropDown" href="tester.html?topic=charged particles">charged particles</a>
+              <a class="dropDown" href="tester.html?topic=nuclear reactions">nuclear reactions</a>
+              <a class="dropDown" href="tester.html?topic=inverse square law">inverse square law</a>
+              <a class="dropDown" href="tester.html?topic=photon duality">photon duality</a>
+              <a class="dropDown" href="tester.html?topic=interference">interference</a>
+              <a class="dropDown" href="tester.html?topic=uncertaincies">uncertainties</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div onmouseleave="hideDropDowns()">
+            <a onclick="showDropDown('computing')"><img src="images/computing.png"></a>
+            <div id="computing" class="dropDownDiv">
+              <a class="dropDown" href="tester.html?topic=CS">CS</a>
+              <a class="dropDown" href="tester.html?topic=SDD">SDD</a>
+              <a class="dropDown" href="tester.html?topic=WDD">WDD</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div onmouseleave="hideDropDowns()">
+            <a onclick="showDropDown('engineering')"><img src="images/english.png" height="100px" width="200px"></a>
+              <div id="engineering" class="dropDownDiv">
+                    <a class="dropDown" href="tester.html?topic=engineering contexts and challenges">Contexts & Challenges</a>
+                    <a class="dropDown" href="tester.html?topic=Set Text">something else</a>
+                    <a class="dropDown">other things</a>
+              </div>
+            </div>
+        </li>
+      </ul>
+      </nav>
+  </body>
+</html>

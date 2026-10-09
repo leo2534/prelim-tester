@@ -1,0 +1,20 @@
+context 1¬only wanted profits
+context 2¬bastista was unpopular before castro
+american foreign policy k1¬USA saw cuba in sphere of influence
+american foreign policy k2¬jupiter missiles in italy and turky,imblance
+american foreign policy A¬USSR retaliate by missiles in cuba, restore mad
+american foreign policy k3¬planned invasion and practice landings
+american foreign policy A+¬defensive aggression to prevent pearl harbour
+american foreign policy E¬USSR offered to not if america nver invade again, usa refused
+castros victory in cuba k1¬us bombed sugar plantations
+castros victory in cuba k2¬eisenhower trade embargo after castro
+castros victory in cuba A¬embergo allowed USSR to move in raising tensions
+castros victory in cuba k3¬first government nationalist not communist
+castros victory in cuba a+¬not inevitably communist due to other factors not castro
+castros victory in cuba E¬castro focus on improving cuba, only became threat after embargo
+khrushchevs miscalculation of kennedy k1¬kennedy forced USSR troops = USA in veinna
+khrushchevs miscalculation of kennedy k2¬kennedy only diplomatic to berlin wall
+khrushchevs miscalculation of kennedy A¬khrushchev expected kennedy would be soft and cave to missiles
+khrushchevs miscalculation of kennedy k3¬embarrassing scaled back bay of pigs
+khrushchevs miscalculation of kennedy A+¬kennedy couldn't be weak after bay of pigs, khrushchev knew this so less likely to push
+khrushchevs miscalculation of kennedy E+¬kennedy had started massive traditional military spend, preparing for war?operation mongoose, castro needed protected
